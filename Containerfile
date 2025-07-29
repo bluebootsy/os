@@ -35,7 +35,8 @@ RUN dnf install -y \
   patch \
   git \
   curl \
-  ristretto \
+  mirage \
+  vlc \
   wireguard-tools && \
   dnf clean all && \
   rm -rf /var/cache/dnf
